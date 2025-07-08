@@ -3,10 +3,8 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Truck, Factory, Users, MapPin, Heart, Leaf, Award, Lightbulb } from 'lucide-react';
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-emerald-50">
+  return <div className="min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-emerald-50">
       {/* Header */}
       <div className="bg-white/80 backdrop-blur-sm border-b border-green-100 sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 py-4">
@@ -26,15 +24,13 @@ const Index = () => {
                 <Award className="h-8 w-8 text-white" />
               </div>
             </div>
-            <CardTitle className="text-3xl font-bold text-green-800 mb-2">
-              Congratulations and Welcome! 🎉
-            </CardTitle>
+            <CardTitle className="text-3xl font-bold text-green-800 mb-2">Congratulations and Welcome! 🎉</CardTitle>
           </CardHeader>
           <CardContent className="text-center space-y-6">
             <div className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto space-y-4">
               <p className="flex items-center justify-center gap-2">
                 <Heart className="h-5 w-5 text-red-500" />
-                <strong>You did it!</strong> After a competitive selection process, you've earned your place here, and we couldn't be more excited to have you join our team.
+                <strong>Oled astunud oma elus järgmisesse etappi, kus uus töökoht toob kaasa ka põnevaid võimalusi õppimiseks, kasvamiseks ja panustamiseks. Meie juures oled sa olulise missiooni osaline – aitame koos muuta maailma puhtamaks ja jätkusuutlikumaks.</strong>
               </p>
               
               <p className="flex items-start justify-center gap-2 text-left">
@@ -242,8 +238,6 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
