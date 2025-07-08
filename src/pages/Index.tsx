@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -29,7 +30,7 @@ const Index = () => {
             <div className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto space-y-4">
               <p className="flex items-center justify-center gap-2">
                 <Heart className="h-5 w-5 text-red-500" />
-                <strong>You did it!</strong> After a competitive selection process, you've earned your place here, and we couldn't be more excited to have you join our team.
+                <strong>Oled astunud oma elus järgmisesse etappi, kus uus töökoht toob kaasa ka põnevaid võimalusi õppimiseks, kasvamiseks ja panustamiseks. Meie juures oled sa olulise missiooni osaline – aitame koos muuta maailma puhtamaks ja jätkusuutlikumaks.</strong>
               </p>
               
               <p className="flex items-start justify-center gap-2 text-left">
